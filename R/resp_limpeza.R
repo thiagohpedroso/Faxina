@@ -22,7 +22,7 @@ resp_limpeza <- function(data_limpeza) {
 
   cat("O responsável pela limpeza no dia",
       format(as.Date(data_limpeza), "%d/%m/%Y"),
-      "?",
+      "é",
       responsavel)
 }
 
